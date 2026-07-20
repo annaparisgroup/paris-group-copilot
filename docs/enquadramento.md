@@ -27,3 +27,17 @@ Produtividade por contabilista: número de empresas apuradas no mesmo período d
 tempo. Baseline (hoje, sem o sistema): ~1 empresa. Meta (com o sistema): ~3
 empresas no mesmo intervalo — um aumento de 3x. Medido comparando o volume de
 apurações concluídas antes e depois da adoção da plataforma.
+
+## Fora de Escopo (MVP)
+
+Estas funcionalidades são úteis, mas ficam de fora da primeira versão de
+propósito — para validar o valor central (economizar tempo do contabilista)
+sem inflar o escopo:
+
+1. **Integração automática com os sistemas da Receita** — depende de terceiros,
+   certificados e homologações; não é necessário para provar a hipótese de
+   ganho de produtividade.
+2. **Assinatura digital de PDFs** — exige certificado digital / ICP-Brasil,
+   uma camada técnica pesada que não é o coração da promessa do produto.
+3. **Aplicativo mobile** — a apuração é feita no computador; mobile é conforto,
+   não necessidade para o público-alvo no MVP.
