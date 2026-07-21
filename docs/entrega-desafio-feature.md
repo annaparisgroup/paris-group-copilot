@@ -50,8 +50,20 @@ Iterações (o ciclo de revisão do pair programming):
   contas) NÃO foi implementada — é a decisão técnica pendente do produto. A tela
   atual é uma demonstração de fluxo, não um login seguro.
 
-## 5. O que falta para a feature estar pronta para revisão
+## 5. O que falta para a feature estar pronta para revisão (próximos passos)
 
-- Implementar autenticação real e segura (backend), ligada à estrutura de usuários.
-- Substituir a logo recriada pela oficial (arquivo em `public/`).
-- Definir o modelo de cobrança (por colaborador), que depende da estrutura de usuários.
+Cada item com responsável e prazo estimado:
+- **Anna:** implementar autenticação real e segura (backend), ligada à estrutura
+  de usuários — **até 28/07** (próxima semana).
+- **Anna:** substituir a logo recriada pela oficial (arquivo em `public/`) — **até 23/07**.
+- **Anna:** definir o modelo de cobrança (por colaborador), que depende da
+  estrutura de usuários — **até 24/07 (sexta)**.
+
+## 6. Decisão mais crítica
+
+A decisão mais crítica é a **técnica (autenticação / estrutura de usuários)**, por
+dependência: o modelo de cobrança pretendido (por colaborador) só pode ser
+definido depois de resolver como os usuários/colaboradores funcionam. Ou seja,
+essa decisão desbloqueia tanto a segurança do login quanto a decisão de produto
+(preço). Deve ser resolvida primeiro. (Não por "precisar deixar tudo completo"
+antes — a validação deve acontecer cedo.)
