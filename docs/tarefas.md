@@ -14,5 +14,12 @@ Legenda: [ ] a fazer · [x] concluído
 
 ## Tarefa 3 — Padrões do repositório 🔄 EM ANDAMENTO
 - [x] Adicionar template de Issue e de PR
-- [ ] Escrever o primeiro handoff (bilhete de passagem)
+- [x] Escrever o primeiro handoff (bilhete de passagem)
 - [ ] Configurar nome/email no Git
+
+## Tarefa 4 — Área do colaborador (login) 🔄 EM ANDAMENTO
+- [x] Criar tela de login em /colaborador (usuário + senha)
+- [x] Ir para a área do ToFiscal (/tofiscal) ao entrar
+- [x] Aplicar identidade visual Paris Group (dark, azul/roxo, logo)
+- [ ] Autenticação real e segura (senha protegida, contas) — decisão técnica pendente
+- [ ] Trocar a logo recriada pela oficial (.png na pasta public)
