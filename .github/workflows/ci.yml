@@ -1,0 +1,31 @@
+name: CI
+
+# O "robozinho" roda automaticamente a cada Pull Request para a main
+on:
+  pull_request:
+    branches: [main]
+  push:
+    branches: [main]
+
+jobs:
+  build:
+    name: Lint e Build (frontend)
+    runs-on: ubuntu-latest
+    steps:
+      - name: Baixar o código
+        uses: actions/checkout@v4
+
+      - name: Preparar o Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: "npm"
+
+      - name: Instalar dependências
+        run: npm ci
+
+      - name: Conferir estilo do código (lint)
+        run: npm run lint
+
+      - name: Conferir se compila (build)
+        run: npm run build
